@@ -17,10 +17,10 @@ flag=0;
 break;
 }
 }
-if(flag==1
+if(flag==1)
 printf("%d",a);
 a++;
 }
-getch();
+return 0;
 }
 
