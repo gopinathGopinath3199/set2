@@ -16,7 +16,7 @@ originalNumber=number;
 while(originalNumber!=0)
 remainder=originalNumber%10;
 result+=remainder*remainder*remainder;
-orinal number/=10;
+orinalNumber/=10;
 }
 if(result==number)
 {
