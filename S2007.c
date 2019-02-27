@@ -9,7 +9,7 @@ originalNumber=number;
 {
 while(originalNumber!=0)
 originalNumber/10;
-n++
+n++;
 }
 originalNumber=number;
 {
