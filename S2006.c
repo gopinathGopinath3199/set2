@@ -1,26 +1,24 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
-{
-int i,j,flag=1,a,b;
-printf("enter the value");
+#include <stdio.h>
+int main(void) 
+{  
+int a,b,i,j,flag=0;  
 scanf("%d%d",&a,&b);
-printf("prime numbers between%dand%d are:",a,b);
-while(a>b)
-{
-flag=0;
-for(i=2;i<=b/2;i++);
-{
-if(a%i==0)
-{
-flag=0;
-break;
-}
-}
-if(flag==1)
-printf("%d",a);
-a++;
+for(i=a;i<b;i++) 
+{ 
+	{
+flag=0;	
+	for(j=2;j<i;j++)
+	{
+		if(i%j==0) 
+		flag=1;
+		}
+	if(i==1)
+	{
+		continue;
+	}
+	}
+ if(flag==0)
+		printf("%d ",i);
 }
 return 0;
 }
-
