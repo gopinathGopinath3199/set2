@@ -13,8 +13,8 @@ n++
 }
 originalNumber=number;
 {
-while(original number!=0)
-remainder=original number%10;
+while(originalNumber!=0)
+remainder=originalNumber%10;
 result+=remainder*remainder*remainder;
 orinal number/=10;
 }
